@@ -1,12 +1,16 @@
 # ViewCodeSnippets
 XML files created by Xcode that capture my code snippets to easefully create view code using UIKit
 
-# Features
-- UIView
-- UIScrollView
-- UILabel (with custom typography)
-- UIImageView
-- INTButton (custom component)
+# Features + Shortcuts
+- UIView: uiview
+- UIScrollView: uiscroll
+- UILabel (with custom typography): uilabelin
+- UIImageView: uiimage
+- INTButton (custom component): uibuttonin 
+
+# Config shortcuts
+
+You can edit shortcuts for each Snippet in Editon > Create Code Snippet, then edit the snippet and change "Completion".
 
 # Install
 As of Xcode 11.3.1
