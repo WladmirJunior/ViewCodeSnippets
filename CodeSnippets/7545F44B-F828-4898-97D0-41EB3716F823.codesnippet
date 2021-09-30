@@ -3,27 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uibuttonin</string>
+	<string>uitextin</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#button#&gt;: INTButton = {
-    let button = INTButton(type: .system)
-    button.translatesAutoresizingMaskIntoConstraints = false
-    button.setTitle(&lt;#title#&gt;, for: .normal)
-    button.titleLabel?.apply(typography: .body(weight: .semibold), with: .white)
-    return button
-}()</string>
+	<string>private lazy var &lt;#searchField#&gt;: INTTextField = {
+        let field = INTTextField(frame: .zero)
+        field.translatesAutoresizingMaskIntoConstraints = false        
+        field.title = NSLocalizedString(&lt;#"Senha"#&gt;, comment: "")
+        return field
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A8B67FC-E13F-48C0-805D-4794AB4227FB</string>
+	<string>7545F44B-F828-4898-97D0-41EB3716F823</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIButton Inter Code</string>
+	<string>UITextField Inter Code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

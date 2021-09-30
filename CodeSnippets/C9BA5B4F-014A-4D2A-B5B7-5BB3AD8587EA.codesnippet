@@ -3,27 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uibuttonin</string>
+	<string>uistackview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#button#&gt;: INTButton = {
-    let button = INTButton(type: .system)
-    button.translatesAutoresizingMaskIntoConstraints = false
-    button.setTitle(&lt;#title#&gt;, for: .normal)
-    button.titleLabel?.apply(typography: .body(weight: .semibold), with: .white)
-    return button
-}()</string>
+	<string>private lazy var &lt;#stackView#&gt;: UIStackView = {
+        let scrollView = UIStackView()
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        scrollView.axis = .horizontal
+        return scrollView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A8B67FC-E13F-48C0-805D-4794AB4227FB</string>
+	<string>C9BA5B4F-014A-4D2A-B5B7-5BB3AD8587EA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIButton Inter Code</string>
+	<string>StackView Code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

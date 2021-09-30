@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uibuttonin</string>
+	<string>uiwarning</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#button#&gt;: INTButton = {
-    let button = INTButton(type: .system)
-    button.translatesAutoresizingMaskIntoConstraints = false
-    button.setTitle(&lt;#title#&gt;, for: .normal)
-    button.titleLabel?.apply(typography: .body(weight: .semibold), with: .white)
-    return button
-}()</string>
+	<string>private lazy var &lt;#warningView#&gt;: WarningView = {
+        let warningView = WarningView()
+        warningView.translatesAutoresizingMaskIntoConstraints = false
+        return warningView
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A8B67FC-E13F-48C0-805D-4794AB4227FB</string>
+	<string>2BB30570-4C73-4AEC-9C8A-1117AE0B28F2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIButton Inter Code</string>
+	<string>Warning View Code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

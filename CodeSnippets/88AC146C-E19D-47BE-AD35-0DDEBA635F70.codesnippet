@@ -9,9 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private var &lt;#label#&gt;: UILabel = {
+	<string>private lazy var &lt;#label#&gt;: UILabel = {
     let label = UILabel()
-    label.apply(typography: .tiny(weight: .regular), with: .gray600)
+    label.set(typography: .bold(.body3), with: CoreUI.gray400)
     label.translatesAutoresizingMaskIntoConstraints = false
     label.lineBreakMode = .byWordWrapping
     label.numberOfLines = 1
@@ -28,6 +28,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

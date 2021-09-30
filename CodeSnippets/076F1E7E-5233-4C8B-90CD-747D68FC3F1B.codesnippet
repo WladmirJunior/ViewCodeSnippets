@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>uibuttonin</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#button#&gt;: INTButton = {
-    let button = INTButton(type: .system)
-    button.translatesAutoresizingMaskIntoConstraints = false
-    button.setTitle(&lt;#title#&gt;, for: .normal)
-    button.titleLabel?.apply(typography: .body(weight: .semibold), with: .white)
-    return button
-}()</string>
+	<string>private enum Metrics {
+        static let loadingMarginTop: CGFloat = -75
+        static let margin: CGFloat = 16
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A8B67FC-E13F-48C0-805D-4794AB4227FB</string>
+	<string>076F1E7E-5233-4C8B-90CD-747D68FC3F1B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIButton Inter Code</string>
+	<string>Uiview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
